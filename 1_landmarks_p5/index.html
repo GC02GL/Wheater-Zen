@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+		<title>MP Hands: Landmarks [p5js]</title>
+
+		<script src="https://unpkg.com/@tensorflow/tfjs-core@3.7.0/dist/tf-core.min.js"></script>
+		<script src="https://unpkg.com/@tensorflow/tfjs-backend-webgl@3.7.0/dist/tf-backend-webgl.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/hand-pose-detection@2.0.0/dist/hand-pose-detection.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4/hands.min.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
+
+		<style>
+			* {
+				box-sizing: border-box;
+				user-select: none;
+			}
+			html,
+			body {
+				height: 100%;
+			}
+			body {
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				background-color: lightgray;
+				position: relative;
+			}
+			.container {
+				margin: 40px 0px;
+				position: relative;
+			}
+			.layer {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			canvas {
+				display: block;
+			}
+			h1 {
+            font-size: 20px;
+			margin: 20;
+			margin-left: 100;
+			position: absolute;
+			bottom: 0;
+			left:0;
+			color: white
+			}
+			/* video {
+				transform: scaleX(-1);
+				display: block;
+			} */
+		</style>
+	</head>
+	<body>
+
+		<h1>Per interagire con il primo scenario muovi la mano davanti alla webcam
+			<br> Per passare al secondo scenario premi il tasto "a"
+		</h1>
+
+		<script src="src/sketch.js"></script>
+		<script>
+			
+			function gestisciTasto(event) {
+			  
+			  if (event.keyCode === 65) {
+		
+				window.location.href = "http://127.0.0.1:5504/";
+			  }
+			}
+		
+			
+			document.addEventListener("keydown", gestisciTasto);
+		  </script>
+
+	</body>
+</html>
