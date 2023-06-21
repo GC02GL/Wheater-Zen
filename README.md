@@ -363,9 +363,6 @@ Secondo scenario Html
 ```
 
 
-
-
-
 ## Target e contesto d’uso
 Il target che ho scelto si riferisce ad un vasto gruppo di persone in particolar modo a quelle che soffrono di disturbi di meteoropatia.
 È un progetto di sperimentazione e un'attività di rilassamento. 
@@ -374,3 +371,11 @@ Attraverso questa interfaccia ho voluto dare la possibilità all'utente di modif
 
 
 
+
+https://github.com/GC02GL/Wheater-Zen/assets/126774228/b301f4ee-e369-4683-885b-4ee0f5d5b80d
+
+
+
+
+
+ 
