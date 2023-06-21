@@ -26,13 +26,12 @@ Il tema scelto è il meteo. Saranno mostrati due scenari dove il primo ci sarà 
 
 
 ## Riferimenti progettuali
-Personalmente soffro di meteorismo e quando piove e quando è nuvoloso il mio umore si incupisce e ho sempre voluto far sparire la pioggia e le nuvole con il pensiero. Proprio per questo ho deciso di realizzare un interfaccia che non realmente poteva realizzare la mia idea.
+Personalmente soffro di meteoropatia e quando il tempo è nuvoloso o piove, mi incupisco e mi piacerebbe far sparire le nuvole col pensiero. Per questo l'interfaccia che ho creato ha l'intenzione di rendere reale la mia idea. Mi sono basata sulle mie percezioni e mi sono documentata su quali sono le principali cause del cambiamento emotivo dovuto dal tempo, appunto le giornate piovose e nuvolose.
 
 
 
 
 ## Design dell’interfraccia e modalià di interazione
-
 
 
 
@@ -43,9 +42,9 @@ Personalmente soffro di meteorismo e quando piove e quando è nuvoloso il mio um
 
 
 ## Target e contesto d’uso
-Il target da me scelto è un vasto gruppo di persone ma principalmente per le persone che soffrono di meteorismo. 
-Questo progetto è un attività di rilassamento e di sperimentazione.
-Tramite questa interfaccia ho voluto poter permettere all'utente di modificare il tempo, cosa che nella realtà non può accadere.
+Il target che ho scelto si riferisce ad un vasto gruppo di persone in particolar modo a quelle che soffrono di disturbi di meteoropatia.
+È un progetto di sperimentazione e un'attività di rilassamento. 
+Attraverso questa interfaccia ho voluto dare la possibilità all'utente di modificare il tempo, cosa che nella realtà non può accadere.
 
 [<img src="doc/munari.jpg" width="300" alt="Supplemento al dizionario italiano">]()
 
