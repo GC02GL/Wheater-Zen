@@ -32,7 +32,9 @@ Personalmente soffro di meteoropatia e quando il tempo è nuvoloso o piove, mi i
 
 
 ## Design dell’interfraccia e modalià di interazione
-
+Il primo scenario è la rappresentazione di un cielo azzurro coperto da nuvole. 
+Con il riconoscimento della mano, dove ho posizionato un ellisse dello stesso colore del cielo ma con opacità minore, andrà a nascondere le nuvole finchè il cielo non sarà completamente vuoto da esse. L'utente sarà poi indirizzato ed informato su come interagire con il primo scenario per poi passare ad un secondo scenario tramite il click della lettera "b". Il secondo scenario è cupo e buio con la pioggia che scende interrottamente e tramite il riconoscimento della mano si riuscirà a far smettere di piovere ma solo nei punti in cui sarà mostrata la mano. 
+Ogni scenario è accompagnato da un suono adatto di sottofondo.
 
 
 
